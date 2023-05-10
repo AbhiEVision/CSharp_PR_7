@@ -9,6 +9,8 @@ namespace CSharp_PR_7.SRP.Violated
 		{
 			Person person = new();
 
+			Console.WriteLine("============ Program Started ============");
+
 			Console.WriteLine("enter your first name");
 			person.firstName = Console.ReadLine();
 
@@ -28,6 +30,8 @@ namespace CSharp_PR_7.SRP.Violated
 			}
 
 			Console.WriteLine($"your first name is {person.firstName} and last name is {person.lastName}");
+			Console.WriteLine("============ Program Ended ============");
+
 		}
 	}
 }
