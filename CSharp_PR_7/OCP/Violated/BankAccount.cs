@@ -20,11 +20,11 @@
 		{
 			if (accountType == AccountType.CurrentAccount)
 			{
-				return money * 0.8;
+				return money * 0.08;
 			}
 			else if (accountType == AccountType.SavingAccount)
 			{
-				return money * 0.5;
+				return money * 0.05;
 			}
 
 			return money;
