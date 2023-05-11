@@ -5,7 +5,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharp_PR_7.OCP.Solved.Program</StartupObject>
+    <StartupObject>CSharp_PR_7.LSP.Solved.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
